@@ -15,5 +15,5 @@ steps:
     versionSpec: '16.x'
 
 - script: npm install
-- script: npm test
+- script: set CI=true && npm test
 - script: npm run build
